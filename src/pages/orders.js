@@ -35,9 +35,9 @@ const Orders = ({ orders }) => {
                 )}
 
                 <div className="mt-5 space-y-4">
-                    {orders?.map((order) => (
+                    {orders?.map((order, i) => (
                         <Order
-                            key={order.id}
+                            key={i}
                             id={order.id}
                             amount={order.amount}
                             amountShipping={order.amountShipping}

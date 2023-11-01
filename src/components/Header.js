@@ -89,10 +89,10 @@ export default function Header() {
             </div>
             {/* ------bottom------ */}
             <div className=" flex items-center bg-amazon_blue-light text-white text-sm gap-3 p-2 pl-6">
-                <p className=" link flex items-center gap-1">
+                {/* <p className=" link flex items-center gap-1">
                     <MenuIcon />
                     All
-                </p>
+                </p> */}
                 <p className=" link">Prime Video</p>
                 <p className=" link">Amazon Business</p>
                 <p className=" link">Today&apos;s Deals</p>
